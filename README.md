@@ -2,15 +2,15 @@
 
 Scripts to compile IceCat for macOS
 
-Should work on macOS 10.11+ but only verified working on macOS 
+Should work on macOS 10.11+ but only verified working on macOS 10.14.6
 
 
 
 ## Installation
 
-### Using brew(recommended)
+### Using brew cask
 
-It is recommended to use brew for installation so you have automatic updates. To install IceCat using brew insert the following into a terminal:
+Using brew will allow you to use automatic updates, to to do insert the following in a terminal
 
 `brew cask install elsorino/homebrew-elso/icecat`
 
@@ -42,4 +42,4 @@ Essentially a combination of the scripts at https://notabug.org/h3nn3s/icecat-ma
 
 
 
-IceCat itself is licensed under MPL 2.0 and GPLv3. The remaining code in this repository is subject to GPLv3.
+IceCat itself is licensed under MPL 2.0 and GPLv3. The remaining code in this repository is subject to GPLv3.(bundled extensions may use differing licenses)
