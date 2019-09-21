@@ -28,7 +28,7 @@ Xcode & command line tools are required
 
 `brew install yasm mercurial gawk ccache python autoconf@2.13` will install remaining dependencies
 
-Compiling firefox currently requires a macOS SDK below 14, it is recommended to get an SDK from https://github.com/phracker/MacOSX-SDKs and moving it to /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/
+Compiling firefox currently requires a macOS SDK below 14, it is recommended to get an SDK from https://github.com/phracker/MacOSX-SDKs and moving it to /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ NOTE: the build script assumes 10.11 SDK
 
 
 
