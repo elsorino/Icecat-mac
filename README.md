@@ -10,7 +10,7 @@ Should work on macOS 10.11+ but only verified working on macOS 10.14.6
 
 ### Using brew cask
 
-Using brew will allow you to use automatic updates, to to do insert the following in a terminal
+Using brew will allow you to recieve automatic updates, to do so insert the following in a terminal
 
 `brew cask install elsorino/homebrew-elso/icecat`
 
