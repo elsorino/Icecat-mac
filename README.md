@@ -26,7 +26,13 @@ This will also add my cask repo to your tap, allowing you to update IceCat with 
 
 Xcode & command line tools are required
 
-`brew install yasm mercurial gawk ccache python autoconf@2.13 rust` will install remaining dependencies
+```
+
+brew install yasm mercurial gawk ccache python autoconf@2.13 rust nasm node
+cargo install cbindgen
+
+```
+will install dependencies 
 
 Compiling firefox currently requires a macOS SDK below 14, it is recommended to get an SDK from https://github.com/phracker/MacOSX-SDKs and moving it to /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ 
 
