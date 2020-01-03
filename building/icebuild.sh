@@ -2,7 +2,7 @@
 
 set -e
 
-version=68.2.0
+version=68.4.0
 archive=./icecat-${version}-gnu1.tar.bz2
 folder=./icecat-${version}
 
@@ -35,7 +35,7 @@ function die {
 function fetch_archive {
     announce "Fetching source archive for ${version}"
     if [[ ! -f "${archive}" ]]; then
-        curl -O "https://sagitter.fedorapeople.org/icecat/v68.2.0/icecat-68.2.0-gnu1.tar.bz2"
+        curl -O "https://sagitter.fedorapeople.org/icecat/v68.4.0/icecat-68.4.0-gnu1.tar.bz2"
     else
         echo "Found previously downloaded archive ${archive}"
     fi
@@ -127,10 +127,10 @@ done
 for command in ${commands}; do
     case "${command}" in
         prepare)
-            fetch_archive
-            extract_archive
+      #      fetch_archive
+     #       extract_archive
             apply_patches
-            prepare_folders
+       #     prepare_folders
             ;;
         build)
             build
